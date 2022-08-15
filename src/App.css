@@ -1,0 +1,90 @@
+.regis{
+  margin-top: 100px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.logo:hover{
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+.link{
+  font-size: 20px;
+}
+.top{
+  margin-top: 50px;
+}
+.box{
+  box-shadow: 0 0 20px 1px;
+}
+.image{
+  width: 100%;
+  display: block;
+}
+.butn{
+  width: 100%;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+.body{
+  width: 100%;
+  height: auto;
+}
+.choose{
+  display: none;
+}
+.process{
+  margin: 20% 50% 0 50%;
+}
+.posts{
+  margin-top: 50px;
+}
+.post{
+  height: auto 70px;
+   box-shadow: 0 0 5px 0;
+   padding: 10px 20px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+.datee{
+  margin-left: -70px;
+}
+.item{
+  float: left;
+  font-size: 20px;
+}
+.icon{
+  float: right;
+}
+.pag{
+  margin-top: 200px;
+}
+.pencil{
+  color: black;
+  margin: 0 5px;
+  font-size: 20px;
+}
+.pencil:hover{
+  color: blue;
+  font-size: 20px;
+}
+.del{
+  color: black;
+  margin: 0 5px;
+  font-size: 20px;
+}
+.ithome{
+  margin-top: 20px;
+}
+.del:hover{
+  color: blue;
+  font-size: 20px;
+}
